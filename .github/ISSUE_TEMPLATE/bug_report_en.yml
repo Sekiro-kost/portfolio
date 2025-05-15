@@ -1,22 +1,23 @@
 name: "[EN] Bug report"
-description: Report a bug or unexpected behavior
+description: "Report a bug or unexpected behavior"
+title: "[BUG] "
 labels: [bug]
 body:
   - type: textarea
     attributes:
       label: Description
-      description: Describe the bug clearly / Décrivez le bug / Describe el problema
+      description: "Describe the bug"
     validations:
       required: true
 
   - type: input
     attributes:
-      label: Jeedom Version / Version de Jeedom / Versión de Jeedom
-      placeholder: "e.g. 4.4.0"
+      label: Jeedom Version
+      placeholder: "ex: 4.4.0"
 
   - type: textarea
     attributes:
-      label: Steps to Reproduce / Étapes pour reproduire / Pasos para reproducir
+      label: Steps to reproduce
       placeholder: |
         1. ...
         2. ...
@@ -25,13 +26,4 @@ body:
   - type: textarea
     attributes:
       label: Logs
-      description: Add logs if available / Ajoutez les logs si possible / Agregue registros si están disponibles
-
-  - type: dropdown
-    attributes:
-      label: Installation Type
-      options:
-        - VM
-        - Raspberry Pi
-        - Docker
-        - Other / Autre / Otro
+      description: "Add logs if available"
