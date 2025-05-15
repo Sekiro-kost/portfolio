@@ -1,25 +1,25 @@
 # Description
 
-Décrivez les changements principaux apportés par cette PR.
+Describe the main changes / Décrivez les changements / Describa los cambios
 
 ---
 
-## Lié à
+## Linked Issue
 
-- Issue liée : `Closes #123` (si applicable)
+- Closes #123 (if applicable)
 
 ---
 
 ## Checklist
 
-- [ ] Le code suit les conventions du core
-- [ ] J’ai testé les modifications localement
-- [ ] La PR est limitée à une fonctionnalité / bug
-- [ ] Des tests ont été ajoutés ou ajustés (si applicable)
-- [ ] La documentation a été mise à jour (si nécessaire)
+- [ ] Code follows core conventions
+- [ ] Changes tested locally
+- [ ] PR limited to one change/feature
+- [ ] Tests added or updated if applicable
+- [ ] Docs updated if needed
 
 ---
 
 ## Screenshots / Logs
 
-_Ajoutez ici toute information utile au test ou à la revue (ex: logs, screenshots, GIFs)_
+Add useful visuals/logs if needed.

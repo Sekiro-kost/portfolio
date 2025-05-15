@@ -1,0 +1,37 @@
+name: [ESP] Informe de error
+description: Informar un comportamiento inesperado o un problema
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: Describe the bug clearly / Décrivez le bug / Describe el problema
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Jeedom Version / Version de Jeedom / Versión de Jeedom
+      placeholder: "e.g. 4.4.0"
+
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce / Étapes pour reproduire / Pasos para reproducir
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+
+  - type: textarea
+    attributes:
+      label: Logs
+      description: Add logs if available / Ajoutez les logs si possible / Agregue registros si están disponibles
+
+  - type: dropdown
+    attributes:
+      label: Installation Type
+      options:
+        - VM
+        - Raspberry Pi
+        - Docker
+        - Other / Autre / Otro
