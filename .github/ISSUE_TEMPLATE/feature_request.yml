@@ -1,0 +1,27 @@
+name: Proposition d'amélioration
+description: Suggérez une idée ou une fonctionnalité
+labels: [enhancement]
+body:
+  - type: textarea
+    attributes:
+      label: Description de la demande
+      placeholder: "Ex : Il serait utile d'avoir une recherche globale dans les objets..."
+
+  - type: textarea
+    attributes:
+      label: Cas d'usage
+      description: Expliquez en quoi cette amélioration améliorerait l’expérience utilisateur ou le fonctionnement.
+      placeholder: "Je gère beaucoup d’équipements et..."
+
+  - type: textarea
+    attributes:
+      label: Captures d'écran / Mockups
+      description: Si possible, illustrez votre idée visuellement.
+
+  - type: checkboxes
+    attributes:
+      label: Cette demande concerne :
+      options:
+        - label: Le core
+        - label: Un plugin officiel
+        - label: Un plugin communautaire

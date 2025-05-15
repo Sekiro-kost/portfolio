@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Forum Jeedom (support communautaire)
+    url: https://community.jeedom.com/
+    about: Pour toute demande générale, merci d’utiliser le forum.

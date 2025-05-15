@@ -1,0 +1,41 @@
+name: Rapport de bug
+description: Signalez un comportement inattendu ou un problème
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: Description du bug
+      description: Décrivez clairement le bug rencontré.
+      placeholder: "Ex. : Lors de l'ajout d'un équipement, Jeedom plante..."
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Version de Jeedom
+      placeholder: "Ex : 4.4.0"
+
+  - type: textarea
+    attributes:
+      label: Étapes pour reproduire
+      description: Expliquez comment reproduire le problème.
+      placeholder: |
+        1. Aller dans ...
+        2. Cliquer sur ...
+        3. Observer ...
+
+  - type: textarea
+    attributes:
+      label: Logs (si disponibles)
+      description: Ajoutez ici les extraits pertinents des logs (core ou plugin).
+
+  - type: dropdown
+    attributes:
+      label: Type d'installation
+      options:
+        - VM
+        - Raspberry Pi
+        - Docker
+        - Autre
+    validations:
+      required: false
