@@ -1,0 +1,22 @@
+name: "Proposition d'amélioration"
+description: "Suggérez une idée ou une fonctionnalité / Suggest an idea or a feature"
+title: "[FEATURE] "
+labels: [enhancement]
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: "Décrivez votre idée / Describe your idea"
+
+  - type: textarea
+    attributes:
+      label: Cas d’usage / Use case
+      description: "Quel est le besoin ? / What is the need ?"
+
+  - type: checkboxes
+    attributes:
+      label: Portée / Scope
+      options:
+        - label: Core
+        - label: Plugin officiel / Official plugin
+        - label: Plugin communautaire / Community plugin
