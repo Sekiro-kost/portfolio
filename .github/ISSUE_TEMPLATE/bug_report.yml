@@ -15,16 +15,11 @@ body:
       label: Type de matériel / Hardware type
       description: "Sélectionnez le type de matériel concerné / Select the affected hardware type"
       options:
-        - label: Jeedom Smart
-          value: jeedom-smart
-        - label: Jeedom SE
-          value: jeedom-se
-        - label: Jeedom Mini+
-          value: jeedom-mini-plus
-        - label: Jeedom Mini
-          value: jeedom-mini
-        - label: Autre / Other
-          value: other
+        - "Jeedom Smart"
+        - "Jeedom SE"
+        - "Jeedom Mini+"
+        - "Jeedom Mini"
+        - "Autre / Other"
     validations:
       required: true
 
