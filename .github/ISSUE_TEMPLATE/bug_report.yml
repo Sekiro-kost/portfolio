@@ -14,9 +14,9 @@ body:
     id: hardware-version
     attributes:
       label: Type de matériel / Hardware type
-      description: "Sélectionnez le type de matériel concerné / Select the affected hardware type"
+      description: |
+        Sélectionnez le type de matériel concerné / Select the affected hardware type
       options:
-        - ""
         - "Jeedom Smart"
         - "Jeedom Atlas"
         - "Jeedom Luna"
