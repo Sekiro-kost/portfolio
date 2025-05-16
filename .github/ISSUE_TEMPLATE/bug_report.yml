@@ -10,7 +10,7 @@ body:
     validations:
       required: true
 
-  - type: select
+  - type: dropdown 
     attributes:
       label: Type de matériel / Hardware type
       description: "Sélectionnez le type de matériel concerné / Select the affected hardware type"
