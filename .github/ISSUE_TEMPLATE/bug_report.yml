@@ -1,8 +1,14 @@
-name: "Rapport de bug / Bug report"
+name: "🐛 Rapport de bug / Bug report"
 description: "Signalez un comportement inattendu ou un problème / Report an unexpected behavior or a problem"
 title: "[BUG] "
 labels: [bug]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 👍 Merci de contribuer au projet / Thank you for contributing to our project!
+        Merci de noter que nous sommes un projet Open Source / Please note this is a **free and open-source** project.
+         La plupart des gens prennent sur leur temps pour vous aider, alors s'il vous plaît, soyez patient / Most people take on their own time to help you, so please, be patient./
   - type: textarea
     attributes:
       label: Description
