@@ -11,20 +11,20 @@ body:
       required: true
 
   - type: dropdown
-    id: nextcloud-version
+    id: hardware-version
     attributes:
-      label: Nextcloud Server version
-      description: |
-        Select Nextcloud Server version.
-        _Versions not listed here are not maintained and not supported anymore_
+      label: Type de matériel / Hardware type
+      description: "Sélectionnez le type de matériel concerné / Select the affected hardware type"
       options:
-        - "29"
-        - "30"
-        - "31"
-        - "master"
+        - "Jeedom Smart"
+        - "Jeedom Atlas"
+        - "Jeedom Luna"
+        - "VM"
+        - "Raspberry Pi"
+        - "Docker"
+        - "Autre / Other"
     validations:
       required: true
-
 
 
   - type: input
