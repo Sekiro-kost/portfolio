@@ -40,17 +40,11 @@ body:
     validations:
       required: true
 
-  - type: input
-    attributes:
-      label: Version du plugin/composant / Plugin or component version
-      placeholder: "ex: 1.2.3"
-    validations:
-      required: false
 
   - type: input
     attributes:
-      label: Environnement (navigateur, OS, etc.) / Environment (browser, OS, etc.)
-      placeholder: "ex: Chrome 123, Windows 11"
+      label: Navigateur / Browser
+      placeholder: "ex: Chrome, Firefox, Safari"
     validations:
       required: false
 
