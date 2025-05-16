@@ -1,4 +1,4 @@
-name: "Rapport de bug"
+name: "Rapport de bug / Bug report"
 description: "Signalez un comportement inattendu ou un problème / Report an unexpected behavior or a problem"
 title: "[BUG] "
 labels: [bug]
