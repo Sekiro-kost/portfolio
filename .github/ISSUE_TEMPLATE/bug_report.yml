@@ -15,26 +15,12 @@ body:
       description: "Décrivez le problème / Describe the bug"
     validations:
       required: true
-  - type: dropdown
-    id: nextcloud-version
-    attributes:
-      label: Nextcloud Server version
-      description: |
-        Select Nextcloud Server version.
-        _Versions not listed here are not maintained and not supported anymore_
-      options:
-        - "29"
-        - "30"
-        - "31"
-        - "master"
-    validations:
-      required: true
+
   - type: dropdown
     id: hardware-version
     attributes:
       label: Type de matériel / Hardware type
-      description: |
-        Sélectionnez le type de matériel concerné / Select the affected hardware type
+      description: "Sélectionnez le type de matériel concerné / Select the affected hardware type"
       options:
         - "Jeedom Smart"
         - "Jeedom Atlas"
