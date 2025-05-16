@@ -25,11 +25,29 @@ body:
           value: jeedom-mini
         - label: Autre / Other
           value: other
+    validations:
+      required: true
 
   - type: input
     attributes:
       label: Version de Jeedom / Jeedom Version
       placeholder: "ex: 4.4.0"
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Version du plugin/composant / Plugin or component version
+      placeholder: "ex: 1.2.3"
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: Environnement (navigateur, OS, etc.) / Environment (browser, OS, etc.)
+      placeholder: "ex: Chrome 123, Windows 11"
+    validations:
+      required: false
 
   - type: textarea
     attributes:
@@ -38,8 +56,12 @@ body:
         1. ...
         2. ...
         3. ...
+    validations:
+      required: true
 
   - type: textarea
     attributes:
       label: Logs
       description: "Ajoutez les logs si disponibles / Add logs if available"
+    validations:
+      required: false
